@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(pos)
+def valid_move?(board, pos)
   if pos.between(1,9)
     return true
   else
