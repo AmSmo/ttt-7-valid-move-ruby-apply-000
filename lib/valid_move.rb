@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(pos)
-  if pos.between(0,8)
+  if pos.between(1,9)
     return true
   else
     return FALSE
